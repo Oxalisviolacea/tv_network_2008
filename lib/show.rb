@@ -6,4 +6,18 @@ class Show
     @creator = creator
     @actors = actors
   end
+
+  # def total_salary
+  #   salaries = []
+  #   character.salary.each do |salary|
+  #     salaries << characters.salary
+  #   end
+  #   salaries.sum
+  # end
+  #
+  # def highest_paid_actor
+  #   character.salary.max_by do |character|
+  #     character.salary
+  #   end
+  # end
 end
